@@ -1,0 +1,24 @@
+{
+	"name": "rd-training-client",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/index.js",
+	"module": "src/index.js",
+	"author": "michael.carolin@simpleviewinc.com",
+	"license": "ISC",
+	"homepage": "https://github.com/mpcarolin/rd-training-client#readme",
+	"scripts": {
+		"style": "npx eslint .",
+		"style:fix": "npx eslint . --fix"
+	},
+	"dependencies": {
+		"@simpleview/sv-graphql-client": "2.0.1"
+	},
+	"devDependencies": {
+		"eslint": "8.13.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mpcarolin/rd-training-client.git"
+	}
+}
